@@ -1,0 +1,19 @@
+git init:
+Description: Initializes a new Git repository in the current directory.
+Example: git init
+
+git add:
+Description: Adds changes in the working directory to the staging area, preparing them to be committed.
+Example: git add . (to add all changes) or git add filename (to add specific file changes)
+
+git commit:
+Description: Records changes to the repository, creating a new commit.
+Example: git commit -m "Commit message"
+
+git push:
+Description: Uploads local repository content to a remote repository.
+Example: git push origin main (pushes to the 'main' branch of the remote named 'origin')
+
+git pull:
+Description: Fetches changes from a remote repository to the local repository.
+Example: git pull origin main (pulls changes from the 'main' branch of the remote named 'origin')
