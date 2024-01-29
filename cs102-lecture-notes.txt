@@ -5,6 +5,26 @@ Example: git init
 git add:
 Description: Adds changes in the working directory to the staging area, preparing them to be committed.
 Example: git add . (to add all changes) or git add filename (to add specific file changes)
+git status:
+
+Description: Shows the current state of the working directory and staging area.
+Example: git status
+git log:
+
+Description: Displays the commit history of the repository.
+Example: git log
+git branch:
+
+Description: Lists existing branches in the repository.
+Example: git branch
+git checkout:
+
+Description: Switches between branches or restores working tree files.
+Example: git checkout branch_name
+git merge:
+
+Description: Integrates changes from one branch into another.
+Example: git merge branch_name
 
 git commit:
 Description: Records changes to the repository, creating a new commit.

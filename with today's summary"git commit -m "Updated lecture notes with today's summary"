@@ -1,0 +1,31 @@
+[1mdiff --git a/cs102-lecture-notes.txt b/cs102-lecture-notes.txt[m
+[1mindex c651d88..aa63943 100644[m
+[1m--- a/cs102-lecture-notes.txt[m
+[1m+++ b/cs102-lecture-notes.txt[m
+[36m@@ -5,6 +5,26 @@[m [mExample: git init[m
+ git add:[m
+ Description: Adds changes in the working directory to the staging area, preparing them to be committed.[m
+ Example: git add . (to add all changes) or git add filename (to add specific file changes)[m
+[32m+[m[32mgit status:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDescription: Shows the current state of the working directory and staging area.[m[41m[m
+[32m+[m[32mExample: git status[m[41m[m
+[32m+[m[32mgit log:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDescription: Displays the commit history of the repository.[m[41m[m
+[32m+[m[32mExample: git log[m[41m[m
+[32m+[m[32mgit branch:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDescription: Lists existing branches in the repository.[m[41m[m
+[32m+[m[32mExample: git branch[m[41m[m
+[32m+[m[32mgit checkout:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDescription: Switches between branches or restores working tree files.[m[41m[m
+[32m+[m[32mExample: git checkout branch_name[m[41m[m
+[32m+[m[32mgit merge:[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mDescription: Integrates changes from one branch into another.[m[41m[m
+[32m+[m[32mExample: git merge branch_name[m[41m[m
+ [m
+ git commit:[m
+ Description: Records changes to the repository, creating a new commit.[m
